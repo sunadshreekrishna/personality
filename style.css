@@ -1,0 +1,61 @@
+body{
+	background:linear-gradient(to right, red,yellow,orange);
+	font-family: 'Anton', sans-serif;
+}
+
+h1{
+	text-align: center;
+	margin-top: 85px;
+	font-size:40px;
+	color:blue;
+}
+
+.centerdiv{
+	border: 10px solid black;
+	margin-left: 300px;
+	margin-right: 300px;
+	text-align: center;
+	border-radius: 8%;
+	background:url(bac.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+label{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: forestgreen;
+}
+
+input{
+	height: 30px;
+	width:300px;
+	background-color: lightpink;
+	border:2px solid blue;
+	text-align:center;
+	text-transform: capitalize;
+	color:blue;
+	font-size: 35px;
+}
+
+.clickbtn{
+	height: 50px;
+	width:200px;
+	background-color: red;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	border-radius: 50%;
+	border:2px solid blue;
+	outline:none;
+}
+
+.resetbtn{
+   height: 50px;
+	width:200px;
+	background-color: green;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	border-radius: 50%;
+	border:2px solid blue;
+	outline:none;
+}
